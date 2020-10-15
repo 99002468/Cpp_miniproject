@@ -19,5 +19,5 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make
       run: |
-        make MiniProject
-        valgrind chmod 777 MiniProject/all.out
+        make miniProject
+        valgrind chmod 777 miniProject/all.out
