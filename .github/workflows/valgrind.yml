@@ -25,4 +25,4 @@ jobs:
     - name: make test
       run: |
         make
-        valgrind ./all.out
+        valgrind Miniproject/ ./all.out
