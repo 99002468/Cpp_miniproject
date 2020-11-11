@@ -47,7 +47,7 @@ void operation:: display()
     }
 
 }
-/*
+
 int operation::Number_of_hospitals()
 {
    std::list<derived> :: iterator iter;
@@ -58,4 +58,4 @@ int operation::Number_of_hospitals()
     }
 
    return count;
-}*/
+}
