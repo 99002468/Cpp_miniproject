@@ -25,4 +25,4 @@ jobs:
     - name: make test
       run: |
         make Miniproject
-        valgrind Miniproject/ ./all.out
+        valgrind chmod 777 Miniproject/all.out
